@@ -1,0 +1,32 @@
+[
+    {
+      "no": 1,
+      "kawasan": "Modern Cikande Industrial Estate",
+      "lokasi": "Kab. Serang, Banten",
+      "luas": 3175.00
+    },
+    {
+      "no": 2,
+      "kawasan": "Java Integrated Industrial and Port Estate",
+      "lokasi": "Kab. Gresik, Jawa Timur",
+      "luas": 2961.00
+    },
+    {
+      "no": 3,
+      "kawasan": "Kawasan Industri Jababeka",
+      "lokasi": "Kab. Bekasi, Jawa Barat",
+      "luas": 2267.00
+    },
+    {
+      "no": 4,
+      "kawasan": "Kawasan Industri KBS",
+      "lokasi": "Kab. Ketapang, Kalimantan Barat",
+      "luas": 2150.00
+    },
+    {
+      "no": 5,
+      "kawasan": "Kawasan Industri Morowali",
+      "lokasi": "Kab. Morowali, Sulawesi Tengah",
+      "luas": 2000.00
+    }
+   ]

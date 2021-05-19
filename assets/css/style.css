@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.jumbotron {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  padding: 25px;
+  text-align: center;
+  color: #3919c9;
+  background-color: #c8e0ca;
+}
+
+.tagline {
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+nav {
+  background-color: #66d883;
+  padding: 5px;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #3919c9;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1960px;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.article-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 20px;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+}
+
+table,
+td,
+th {
+  border: 1px solid #291f1f;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: #2ce062;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  height: 35px;
+}
+
+.text-number {
+  text-align: right;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.384);
+  /* flex-basis: 75%; */
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+aside {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.384);
+  /* flex-basis: 25%; */
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  float: right;
+}
+
+.avatar-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.avatar-caption {
+  margin-top: 5px;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
+.flex-container-row {
+  /* display: flex; */
+  flex-basis: 75%;
+  float: left;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 16px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  background-color: darkslategrey;
+}
