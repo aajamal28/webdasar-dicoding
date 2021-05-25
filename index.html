@@ -17,24 +17,24 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#sejarah">Beranda</a></li>
-                <li><a href="#geografis">Industri</a></li>
-                <li><a href="#wisata">Tentang</a></li>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#news">Berita</a></li>
+                <li><a href="#about">Tentang</a></li>
             </ul>
         </nav>
     </header>
     <!-- end of header section -->
 
     <!-- main content section -->
-    <main class="container ">
-        <div id="content">
-            <div class="flex-container-row">
+    <main class="container">
+        <div class="flex-row" id="content">
+            <div class="flex-col">
                 <article class="card">
-                    <h3 class="article-title">5 Kawasan Industri terbesar di Indonesia</h3>
+                    <h3 class="article-title">10 Kawasan Industri terbesar di Indonesia</h3>
                     <p>Dari banyaknya kawasan industri yang ada di Indonesia, berikut admin rangkumkan 5 kawasan
                         industri
                         terbesar yang ada di Indonesia berdasarkan luas areanya.</p>
-                    <table>
+                    <table id="tbIndustry">
                         <thead>
                             <tr>
                                 <th>No</th>
@@ -74,25 +74,80 @@
                                 <td>Kab. Morowali, Sulawesi Tengah</td>
                                 <td class="text-number">2.000,00</td>
                             </tr>
+                            <tr>
+                                <td class="text-number">6</td>
+                                <td>Kawasan Industri Sei Mangkei</td>
+                                <td>Kab. Simalungun, Sumatera Utara</td>
+                                <td class="text-number">1.933.80</td>
+                            </tr>
+                            <tr>
+                                <td class="text-number">7</td>
+                                <td>Millenium Industrial Estate</td>
+                                <td>Kab. Tangerang, Banten</td>
+                                <td class="text-number">1.800.00</td>
+                            </tr>
+                            <tr>
+                                <td class="text-number">8</td>
+                                <td>Kawasan Industri Dumai</td>
+                                <td>Kota Dumai, Riau</td>
+                                <td class="text-number">1.731.00</td>
+                            </tr>
+                            <tr>
+                                <td class="text-number">9</td>
+                                <td>MM2100 Industrial Town BFIE</td>
+                                <td>Kab. Bekasi, Jawa Barat</td>
+                                <td class="text-number">1.700.00</td>
+                            </tr>
+                            <tr>
+                                <td class="text-number">10</td>
+                                <td>Greenland International Industrial Center (GIIC)</td>
+                                <td>Kab. Bekasi, Jawa Barat</td>
+                                <td class="text-number">1.700.00</td>
+                            </tr>
 
                         </tbody>
                     </table>
                 </article>
-                <article class="card">
-                    <h3 class="article-title">Dampak Pandemi Covid-19 bagi Industri</h3>
+                <article id="news" class="card">
+                    <h3 class="article-title">Berita Dampak Pandemi Covid-19 bagi Industri</h3>
+                    <div class="news">
+                        <img src="assets/img/img_news_1.jpeg" alt="ilustrasi industry 1">
+                        <h3><a href="https://finance.detik.com/industri/d-4985660/ini-industri-yang-paling-banyak-gulung-tikar-gegara-corona"
+                                target="_blank">Ini Industri yang Paling Banyak Gulung Tikar Gegara Corona</a></h3>
+                        <p>Pandemi virus Corona diyakini telah memukul banyak sektor penggerak ekonomi terutama sektor
+                            industri. Lalu, industri apa saja yang paling rentan gulung tikar karena diserang wabah
+                            tersebut?</p>
+                    </div>
+                    <div class="news">
+                        <img src="assets/img/img_news_2.jpeg" alt="ilustrasi industry 2">
+                        <h3><a href="https://www.cnbcindonesia.com/news/20200430163031-4-155584/60-industri-lumpuh-gegara-corona-sedikit-yang-bertahan"
+                                target="_blank">60% Industri Lumpuh Gegara Corona, Sedikit yang Bertahan</a></h3>
+                        <p>Saat ini, masih 15 ribu lebih perusahaan industri tetap bekerja atau setara dengan sekitar
+                            37% perusahaan industri yang beroperasi saat normal, atau 60% lebih sisanya lumpuh atau tak
+                            operasi.</p>
+                    </div>
+                    <div class="news">
+                        <img src="assets/img/img_news_3.jpeg" alt="ilustrasi industry 3">
+                        <h3><a href="https://www.cnbcindonesia.com/news/20200730124725-4-176516/covid-19-banjir-impor-produksi-industri-ri-ambles-ke-40"
+                                target="_blank">Covid-19 & 'Banjir' Impor, Produksi Industri RI Ambles ke 40%</a></h3>
+                        <p>Menperin Agus Gumiwang mengakui utilisasi sektor industri sebelum terjadinya Covid-19
+                            mencapai 75%. Saat ini, dengan adanya tekanan akibat pandemi, utilisasi turun drastis hingga
+                            40%</p>
+                    </div>
                 </article>
             </div>
+            <div class="flex-col">
+                <aside id="about" class="card">
+                    <figure>
+                        <img class="avatar-image" src="assets/img/me.jpg" alt="jamaludin">
+                        <figcaption class="avatar-caption">jamaludin_l3ta</figcaption>
+                    </figure>
 
-            <aside>
-                <figure>
-                    <img class="avatar-image" src="assets/img/me.jpg" alt="jamaludin">
-                    <figcaption class="avatar-caption">jamaludin_l3ta</figcaption>
-                </figure>
-
-                <p>Nama : Jamaludin</p>
-                <p>Username : jamaludin_l3ta</p>
-                <p>Email : aajamal28@gmail.com</p>
-            </aside>
+                    <p>Nama : Jamaludin</p>
+                    <p>Username : jamaludin_l3ta</p>
+                    <p>Email : aajamal28@gmail.com</p>
+                </aside>
+            </div>
         </div>
     </main>
     <!-- end of main content section -->
